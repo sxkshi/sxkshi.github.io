@@ -61,6 +61,28 @@ color:#270E2D;
     background-size:cover;
 
 }
+.contact{background-color: #BD00FF;
+    background-size: cover;
+    height: 110vh;
+font-size: 10vw;
+color:#660885 ;
+text-align: center;
+}
+label#iconnn{ position: absolute;
+    margin-left: 2%;
+    margin-top: 5%;
+    color: #BD00FF;
+    text-shadow: 0 0 8px#fff ;
+}
+
+
+.tryforfree{background-color: #BD00FF;
+    background-size: cover;
+    height: 110vh;
+font-size: 10vw;
+color:#660885 ;
+text-align: center;
+}
 
 .btn-1 { position: absolute;
     margin:8px 25px;
