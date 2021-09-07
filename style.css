@@ -341,7 +341,7 @@ i:hover {
     border-radius: 10px;
 }
 
-.contact button.btn {
+.contact input.btn {
     padding: 15px;
     border-radius: 10px;
     font-size: 15px;
