@@ -1,0 +1,135 @@
+body{   
+    background-image: url(bg1.jpg);
+  background-size: cover;
+    width: 100%;
+      }
+
+      h1{ color: rgb(99, 32, 1);
+          font-size: 5.5vw;
+          font-family: 'Alfa Slab One', cursive;
+        font-weight: 400;
+        position: absolute;
+        margin-left: 10%;
+        margin-top: -40%;
+        text-align: center;
+      }
+      /* .container{
+          position: absolute;
+          margin-top: ;
+      } */
+      h5{color: rgb(99, 32, 1);
+            
+             
+        }
+        .form-group{position: relative;
+          padding-top:2%;}
+
+          #demo{ font-size: 10vw;
+                 text-align: center;}
+
+       #myBtn {
+
+          border: 1px solid black;
+          border-radius: 35px;
+          padding: 10px 30px;
+          font-size: 1vw;
+          color: rgb(99, 32, 1);
+          background-color: transparent;
+          font-weight: 500;
+          margin-right: 10px;
+          text-decoration: none;
+      }
+      
+      #myBtn:hover {
+          background-color:rgb(99, 32, 1);
+          color: rgb(255, 186, 232);
+          box-shadow: 0 0 100px rgb(252, 112, 48);
+      }
+     
+      
+      .flicker { 
+          animation: shine 2s forwards, blink 10s 2s infinite;
+      }
+      @keyframes blink {
+        0%,
+        22%,
+        36%,
+        75% {
+            color: #ffe6ff;
+            text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd, -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd, 0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
+        }
+        28%,
+        33% {
+            color: #ff65bd;
+            text-shadow: none;
+        }
+        82%,
+        97% {
+            color: #ff2483;
+            text-shadow: none;
+        }
+    }
+    @keyframes shine {
+      0% {
+          color: #ffffff;
+          text-shadow: none;
+      }
+      100% {
+          color: #ffe6ff;
+          text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd, -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd, 0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
+      }
+  }
+  
+
+  
+     
+      @media screen and (max-width:909px)
+    {
+        html, body {
+        margin:0px;
+        padding:0px;
+        width: 100vw;}
+        body{background-size: 100vw;}
+        
+        canvas {
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #demo{ font-size: 10vw;
+          text-align: center;}
+
+        h1{position: absolute;
+        font-size: 9.5vw;
+        margin-top:-145%;
+        margin-left: -6%;
+          }
+          .container{
+            position: absolute;
+            margin-top:-92%;
+            padding: 8%;
+           
+        }
+        .form-group{position: relative;
+            padding-top:2%;}
+
+            #myBtn {
+              border: 1px solid black;
+              border-radius: 35px;
+              padding: 10px 30px;
+              font-size: 4vw;
+              color: rgb(99, 32, 1);
+              background-color: transparent;
+              font-weight: 500;
+              margin-right: 10px;
+              text-decoration: none;
+          }
+          
+          #myBtn:hover {
+              background-color:rgb(99, 32, 1);
+              color: rgb(255, 186, 232);
+              box-shadow: 0 0 100px rgb(252, 112, 48);
+          }
+         
+    
+    }
+    

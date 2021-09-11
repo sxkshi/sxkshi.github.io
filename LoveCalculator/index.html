@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/3c034ac1e1.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+     <title>Love-Calc</title>
+
+
+</head>
+
+<body>
+    <canvas id="canvas" class="canvas"> </canvas>
+    <script src="main.js"></script>
+    <h1 >Welcome To The Ultimate Love Calculator</h1>
+    <div class="container">
+        <h5>Enter Your names:</h5>
+			
+						<div class="form-group">
+								<input type="text" class="form-control" name="names" placeholder="Name One" />
+						</div>
+						<div class="form-group">
+								<input type="text" class="form-control" name="names" placeholder="Name Two" />
+						</div>
+						<div class="form-group">
+                            <button id="myBtn">Calculate</button>
+
+
+                            <p id="demo" class="flicker" ></p>
+                            
+                            <script>
+                            document.getElementById("myBtn").addEventListener("click", function() {
+                              document.getElementById("demo").innerHTML = (Math.floor(Math.random()*100)+1)+"% Love!";
+                            });
+                            </script>
+						</div>
+                      
+                        
+				</form>
+				<p id="warning" class="text-danger"></p>
+				<h1 id="result" class="text-center"></h1>
+            </div>
+
+
+</body></html>
+
+ 
